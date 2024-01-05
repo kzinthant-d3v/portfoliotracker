@@ -11,6 +11,16 @@ export const getPrices = async (currency: 'MMK' | 'THB') => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "123",
+        "content-type": "application/json",
+        "Host": "p2p.binance.com",
+        "Origin": "https://p2p.binance.com",
+        "Pragma": "no-cache",
       },
       body: JSON.stringify({
         page: 1,
